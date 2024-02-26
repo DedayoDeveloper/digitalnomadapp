@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalNomadApp", "DigitalNomadApp.csproj", "{773C8A19-FD77-47E2-BE75-ED5FEC94E396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalNomadAppTest", "..\DigitalNomadAppTest\DigitalNomadAppTest.csproj", "{135FA3FF-6933-4BDB-9636-266955AEF2B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773C8A19-FD77-47E2-BE75-ED5FEC94E396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773C8A19-FD77-47E2-BE75-ED5FEC94E396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773C8A19-FD77-47E2-BE75-ED5FEC94E396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773C8A19-FD77-47E2-BE75-ED5FEC94E396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135FA3FF-6933-4BDB-9636-266955AEF2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135FA3FF-6933-4BDB-9636-266955AEF2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135FA3FF-6933-4BDB-9636-266955AEF2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135FA3FF-6933-4BDB-9636-266955AEF2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C388AB2-2DDE-4A2F-9905-D28156FACBA5}
+	EndGlobalSection
+EndGlobal
