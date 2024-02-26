@@ -5,7 +5,14 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalNomadApp", "DigitalNomadApp.csproj", "{773C8A19-FD77-47E2-BE75-ED5FEC94E396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalNomadAppTest", "..\DigitalNomadAppTest\DigitalNomadAppTest.csproj", "{135FA3FF-6933-4BDB-9636-266955AEF2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalNomadAppTest", "..\DigitalNomadAppTest\DigitalNomadAppTest.csproj", "{135FA3FF-6933-4BDB-9636-266955AEF2B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{2EA439E5-3BC4-42C4-8D3E-100F4D5F0DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{C0B18361-486A-4883-A46C-5C9C7102E4FE}"
+	ProjectSection(SolutionItems) = preProject
+		deploy_to_azure.yaml = deploy_to_azure.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0B18361-486A-4883-A46C-5C9C7102E4FE} = {2EA439E5-3BC4-42C4-8D3E-100F4D5F0DFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C388AB2-2DDE-4A2F-9905-D28156FACBA5}
