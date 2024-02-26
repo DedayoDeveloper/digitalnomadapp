@@ -33,7 +33,7 @@ namespace DigitalNomadApp.Endpoints
                 Name = "TestUserName",
                 Description = "TestUserDescription",
                 Url = "https://localhost:8080//test",
-                Type = "TestType",
+                Type = "Test",
             };
 
             return new OkObjectResult(responseMessage);
