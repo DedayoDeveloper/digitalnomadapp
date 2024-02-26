@@ -25,7 +25,7 @@ namespace DigitalNomadApp.Endpoints
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
+           // dynamic data = JsonConvert.DeserializeObject(requestBody);
 
 
             var responseMessage = new ResponseModel
