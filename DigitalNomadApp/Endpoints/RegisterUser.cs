@@ -25,7 +25,7 @@ namespace DigitalNomadApp.Endpoints
 
         [FunctionName("RegisterNomad")]
         public static async Task<IActionResult> Run(
-         [HttpTrigger(AuthorizationLevel.Function, "post", Route = "v1/register")] HttpRequest req,
+         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "v1/register")] HttpRequest req,
          ILogger log)
         {
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
